@@ -1,16 +1,18 @@
 {
-  "name": "@zene/mobile-number-validator",
-  "version": "1.0.2",
+  "name": "country-mobile-number-validator",
+  "version": "1.0.0",
   "description": "A lightweight Javascript library for retrieving country information, including country codes, based on provided data. Simplify your application's logic by seamlessly integrating with this package to extract essential country details, facilitating tasks such as phone number validation, formatting and localization.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kavindamkumarage/mobile-number-validator.git"
+    "url": "git+https://github.com/Lokesh-connqt/mobile-number-validator.git"
   },
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "e164",
@@ -19,7 +21,7 @@
     "number",
     "phone",
     "international",
-    "mobile-number-validator"
+    "country-mobile-number-validator"
   ],
   "author": "kavinda_kumarage",
   "license": "MIT",
